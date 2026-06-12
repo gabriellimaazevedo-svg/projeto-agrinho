@@ -1,0 +1,60 @@
+/* 1. Reset Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. Configurações do Corpo da Página */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(1, 57, 29);
+    color: #e8f5e9;
+    padding: 20px; /* Adicionado para o conteúdo não colar na tela do celular */
+}
+
+/* 3. Container Principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto; /* Centraliza o site na tela */
+}
+
+/* 4. Títulos (Estilizados para combinar com as cores do projeto) */
+h1 {
+    font-size: 2.5rem;
+    color: #81c784; /* Verde claro em destaque */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #a5d6a7;
+    margin-bottom: 15px;
+}
+
+/* 5. Parágrafos */
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #e8f5e9; /* Verde bem claro para contraste */
+}
+
+/* 6. Cartão onde fica o H2, P e a Imagem */
+.cartao {
+    background-color: rgba(255, 255, 255, 0.05); /* Fundo levemente transparente */
+    padding: 25px;
+    border-radius: 8px; /* Bordas arredondadas */
+    border-left: 4px solid #81c784; /* Detalhe lateral elegante */
+}
+
+/* 7. Ajuste da Imagem (CORRIGIDO) */
+.imagem-projeto {
+    width: 100%; /* Ocupa a largura total disponível... */
+    max-width: 500px; /* ...mas não passa de 500 pixels de largura */
+    height: auto; /* Ajusta a altura automaticamente para não distorcer */
+    display: block; /* Transforma a imagem em um bloco para aceitar margens */
+    margin: 20px auto; /* 20px de espaço em cima/baixo e 'auto' centraliza nas laterais */
+    border-radius: 4px; /* Cantos suavemente arredondados na foto */
+}
